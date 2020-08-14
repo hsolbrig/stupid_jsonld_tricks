@@ -1,8 +1,6 @@
 import os
 from rdflib import Graph
-
-input_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'input'))
-output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output'))
+from src import input_dir, output_dir
 
 # Step one -- convert the tags to indices
 g = Graph()

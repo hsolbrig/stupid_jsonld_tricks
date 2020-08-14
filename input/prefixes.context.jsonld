@@ -1,0 +1,10 @@
+{
+  "@context": {
+      "GO": {
+          "@id": "http://purl.obolibrary.org/obo/GO_",
+          "@prefix": true
+      },
+      "STAY": "http://purl.obolibrary.org/stay/",
+      "SIT": "http://purl.obolibrary.org/obo/SIT_"
+  }
+}

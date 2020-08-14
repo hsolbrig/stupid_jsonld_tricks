@@ -1,0 +1,8 @@
+@prefix STAY: <http://purl.obolibrary.org/stay/> .
+@prefix ns1: <file:///Users/solbrig/git/hsolbrig/stupid_jsonld_tricks/input/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:GO:12345 17 ;
+    ns1:SIT:5678 173 ;
+    STAY:3456 42 .
+
