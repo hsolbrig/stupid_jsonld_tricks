@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "foaf": "http://foaf.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://foo.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:N3173f3058ba84e57b995848088826118",
+      "http://example.org/address": "2017 South Firelake Street, Decauter, IL, 62523",
+      "http://example.org/extension": [
+        {
+          "@id": "_:Nc15531743c2f440b86dbd6cd8af0be63"
+        },
+        {
+          "@id": "_:N1e37d599fb064bbd83e40cad447708bd"
+        }
+      ],
+      "http://example.org/name": "Justin L. Jones"
+    },
+    {
+      "@id": "_:Nc15531743c2f440b86dbd6cd8af0be63",
+      "http://example.org/@index": "role",
+      "http://example.org/value": "Pragmatics Specialist"
+    },
+    {
+      "@id": "_:N1e37d599fb064bbd83e40cad447708bd",
+      "http://example.org/@index": "IQ",
+      "http://example.org/value": 122
+    }
+  ]
+}

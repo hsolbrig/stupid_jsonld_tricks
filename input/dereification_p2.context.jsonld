@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://example.org/",
+    "skos": "http://foo.org/",
+    "foaf": "http://foaf.org/",
+    "extensions": "@nest",
+    "value": "@value"
+  }
+}

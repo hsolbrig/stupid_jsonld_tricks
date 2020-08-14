@@ -1,0 +1,12 @@
+{
+  "extensions": {
+    "skos:note": {
+      "value": "This is a note"
+    },
+    "foaf:mbox": {
+      "value": "me@mails.r.us"
+    }
+  },
+  "location": "USA",
+  "name": "An entry"
+}

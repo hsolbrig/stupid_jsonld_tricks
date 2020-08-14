@@ -1,0 +1,8 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:address "2017 South Firelake Street, Decauter, IL, 62523" ;
+    ns1:extension [ ns1:value 122 ],
+        [ ns1:value "Pragmatics Specialist" ] ;
+    ns1:name "Justin L. Jones" .
+
