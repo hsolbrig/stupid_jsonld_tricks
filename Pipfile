@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 rdflib = "*"
 rdflib-jsonld = {editable = true,git = "https://github.com/rdflib/rdflib-jsonld",ref = "feature/json-ld-1.1"}
+pyld = "*"
+jsonasobj = "*"
 
 [requires]
 python_version = "3.8"
