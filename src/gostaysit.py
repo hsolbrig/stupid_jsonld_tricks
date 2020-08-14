@@ -6,4 +6,5 @@ from src import input_dir, output_dir
 
 g = Graph()
 g.parse(os.path.join(input_dir, 'prefixes.json'), format='json-ld', context= os.path.join(input_dir, 'prefixes.context.jsonld'))
+g.serialize(os.path.join(output_dir, 'prefixes.jsonld'), format='json-ld', base='http://ontologies.r.us/BASE#')
 g.serialize(os.path.join(output_dir, 'prefixes.ttl'), format='turtle')

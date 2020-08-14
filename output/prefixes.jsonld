@@ -1,0 +1,20 @@
+[
+  {
+    "@id": "_:Nc3f07a48276b4be38f3419400e0215bd",
+    "file:///Users/solbrig/git/hsolbrig/stupid_jsonld_tricks/input/GO:12345": [
+      {
+        "@value": 17
+      }
+    ],
+    "file:///Users/solbrig/git/hsolbrig/stupid_jsonld_tricks/input/SIT:5678": [
+      {
+        "@value": 173
+      }
+    ],
+    "http://purl.obolibrary.org/stay/3456": [
+      {
+        "@value": 42
+      }
+    ]
+  }
+]
